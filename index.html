@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <title>Fruit-Bazzar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light py-3 sticky-top">
+        <div class="container-fluid px-5">
+            <a href="#" class="navbar-brand text-dark fw-bold fs-2">
+                <i class="bi bi-apple me-2"></i>
+                Fruit<span class="text-success">Bazaar</span>
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
+                aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" href="#hero-section">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#fruitTabContent">Harvest</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#fruit-boxes">Fruit Boxes</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success rounded-pill">
+                    Order Fresh
+                </button>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5 bg-light" id="hero-section">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center ">
+                <div class="col-lg-7 text-dark pt-5 mt-5" id="badge1">
+                    <p class="text-success fw-semibold fs-5 mb-3">
+                        <i class="bi bi-check-circle-fill me-2"></i>
+                        Fresh & Organic
+                    </p>
+                    <h1 class="display-4 fw-bold">Fresh Fruits
+                        <span class="text-success">Every Day</span>
+                    </h1>
+                    <p class="lead text-dark my-4">
+                        Discover fresh and delicious fruits,
+                        carefully selected and delivered to your door.
+                    </p>
+                    <a href="#" class="btn btn-success btn-lg rounded-pill px-4">
+                        Shop Fresh Fruits
+                    </a>
+                    <a href="#" class="btn btn-white btn-lg rounded-pill px-4 border border-dark" id="btn2">View Daily
+                        Deals</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="features-section">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 border-end px-4" id="f-1">
+                    <div class="text-success fs-1 mb-2">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <h5 class="fw-bold">
+                        100% Certified Organic
+                    </h5>
+                    <p class="text-secondary">
+                        Naturally grown with zero synthetic pesticides or chemicals.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 border-end px-4" id="f-2">
+                    <div class="text-success fs-1 mb-2">
+                        <i class="bi bi-truck"></i>
+                    </div>
+                    <h5 class="fw-bold">
+                        Cold-Chain Express Delivery
+                    </h5>
+                    <p class="text-secondary">
+                        Temperature-controlled chilled delivery within 2 hours.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 border-end px-4">
+                    <div class="text-success fs-1 mb-2">
+                        <i class="bi bi-basket3-fill"></i>
+                    </div>
+                    <h5 class="fw-bold">
+                        Farm-To-Table Fresh
+                    </h5>
+                    <p class="text-secondary">
+                        Harvested at peak sun ripeness for maximum natural sweetness.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 px-4">
+                    <div class="text-success fs-1 mb-2">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h5 class="fw-bold">
+                        Freshness Guaranteed
+                    </h5>
+                    <p class="text-secondary">
+                        100% money-back guarantee if you're not fully delighted.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5" id="about">
+        <div class="container-fluid px-5">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <p class="text-success fw-bold mb-3">
+                        ABOUT OUR ORCHARDS
+                    </p>
+                    <h1 class="fw-bold">
+                        Cultivating Nature's Purest
+                        Fruits With Love & Care
+                    </h1>
+                    <p class="text-secondary fs-5 mt-4">
+                        For over two decades, FruitBazaar has partnered directly
+                        with certified family-run orchards. We eliminate middle-men
+                        to deliver sweeter, healthier, freshly picked fruits
+                        directly to your dining table.
+                    </p>
+                    <button class="btn btn-success rounded-pill px-4 py-3 fw-bold mt-3">
+                        Explore Our Fruits
+                    </button>
+                </div>
+
+                <div class="col-lg-4">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text-dark " id="mission-tab" data-bs-toggle="pill"
+                                data-bs-target="#mission" type="button" role="tab">
+                                Our Mission
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark " id="quality-tab" data-bs-toggle="pill"
+                                data-bs-target="#quality" type="button" role="tab">
+                                Our Quality
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark" id="eco-tab" data-bs-toggle="pill" data-bs-target="#eco"
+                                type="button" role="tab">
+                                Eco Farming
+                            </button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="mission" role="tabpanel"
+                            aria-labelledby="mission-tab">
+                            <div class="card shadow-sm border">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-start gap-3">
+                                        <div class="bg-success-subtle text-success rounded-circle
+                                    d-flex align-items-center justify-content-center
+                                    flex-shrink-0" id="icon">
+                                            <i class="bi bi-heart-pulse-fill fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="fw-bold">
+                                                Our Mission
+                                            </h5>
+                                            <p class="text-secondary mb-0">
+                                                To make pure, healthy, unadulterated fresh
+                                                fruits accessible, affordable, and delicious
+                                                for every family.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="quality" role="tabpanel" aria-labelledby="quality-tab">
+                            <div class="card shadow-sm border">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-start gap-3">
+                                        <div class="bg-success-subtle text-success rounded-circle
+                                              d-flex align-items-center justify-content-center
+                                             flex-shrink-0" id="icon">
+                                            <i class="bi bi-patch-check-fill fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="fw-bold">
+                                                Our Quality
+                                            </h5>
+                                            <p class="text-secondary mb-0">
+                                                We carefully select premium-quality fruits
+                                                from trusted farms to ensure freshness,
+                                                taste, and nutritional value.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="eco" role="tabpanel" aria-labelledby="eco-tab">
+                            <div class="card shadow-sm border">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-start gap-3">
+                                        <div class="bg-success-subtle text-success rounded-circle
+                                    d-flex align-items-center justify-content-center
+                                    flex-shrink-0" id="icon">
+                                            <i class="bi bi-leaf-fill fs-4"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="fw-bold">
+                                                Eco Farming
+                                            </h5>
+                                            <p class="text-secondary mb-0">
+                                                We support sustainable farming methods that
+                                                protect the environment and promote healthier
+                                                crops for future generations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="fw-bold mb-4">
+                        Frequently Asked Questions
+                    </h2>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqOne">
+                                    How do you ensure fruit freshness during delivery?
+                                </button>
+                            </h2>
+                            <div id="faqOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We use temperature-controlled delivery and
+                                    carefully selected packaging to maintain freshness.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                                    Are all your fruits certified 100% organic?
+                                </button>
+                            </h2>
+                            <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We source our fruits from trusted certified
+                                    organic farms.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqThree">
+                                    What if I receive bruised or damaged fruits?
+                                </button>
+                            </h2>
+                            <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Contact our support team and we will arrange
+                                    a replacement or refund.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqFour">
+                                    Can I customize my Weekly fruit box?
+                                </button>
+                            </h2>
+                            <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, you can customize your weekly fruit box
+                                    based on your preferences.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="categories">
+        <div class="container-fluid px-5">
+            <div class="mb-4">
+                <p class="text-success fw-bold mb-2">
+                    OUR CATEGORIES
+                </p>
+                <h1 class="fw-bold">
+                    What We Offer
+                </h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm border">
+                        <div class="card-body p-4">
+                            <div class="bg-success-subtle text-success rounded-3
+                                    d-flex align-items-center justify-content-center mb-4" id="fruit">
+                                <i class="bi bi-sun fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Exotic & Tropical
+                            </h4>
+                            <p class="text-secondary">
+                                Dragonfruit, golden mangoes, sweet papayas,
+                                and ripe pineapples.
+                            </p>
+                            <a href="#" class="text-success text-decoration-none fw-bold">
+                                Explore Fruits
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm border">
+                        <div class="card-body p-4">
+                            <div class="bg-success-subtle text-success rounded-3
+                                    d-flex align-items-center justify-content-center mb-4" id="fruit">
+                                <i class="bi bi-apple fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Crisp Apples & Pears
+                            </h4>
+                            <p class="text-secondary">
+                                Handpicked Honeycrisp, Fuji, Royal Gala
+                                apples, and juicy Bosc pears.
+                            </p>
+                            <a href="#" class="text-success text-decoration-none fw-bold">
+                                Explore Fruits
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+
+                    <div class="card h-100 shadow-sm border">
+                        <div class="card-body p-4">
+                            <div class="bg-success-subtle text-success rounded-3
+                                    d-flex align-items-center justify-content-center mb-4" id="fruit">
+
+                                <i class="bi bi-droplet fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Citrus & Fresh Berries
+                            </h4>
+                            <p class="text-secondary">
+                                Sweet Valencia oranges, organic strawberries,
+                                blueberries, and lemons.
+                            </p>
+                            <a href="#" class="text-success text-decoration-none fw-bold">
+
+                                Explore Fruits
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm border">
+                        <div class="card-body p-4">
+                            <div class="bg-success-subtle text-success rounded-3
+                                    d-flex align-items-center justify-content-center mb-4" id="fruit">
+                                <i class="bi bi-cup-straw fs-3"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Cold-Pressed Juices
+                            </h4>
+                            <p class="text-secondary">
+                                100% natural fruit juices with no added
+                                sugar or preservatives.
+                            </p>
+                            <a href="#" class="text-success text-decoration-none fw-bold">
+                                Explore Fruits
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+
+        <div class="container-fluid px-4 px-lg-5">
+
+            <div class="row align-items-center mb-4">
+                <div class="col-lg-8 mb-3 mb-lg-0">
+
+                    <p class="text-success fw-bold mb-2">
+                        OUR HARVEST
+                    </p>
+
+                    <h1 class="fw-bold mb-0">
+                        Fresh Daily Picks
+                    </h1>
+
+                </div>
+                <div class="col-lg-4 text-lg-end">
+
+                    <a href="#" class="btn btn-outline-success rounded-pill
+                          px-4 py-2 fw-bold">
+
+                        View Subscription Boxes
+
+                    </a>
+
+                </div>
+
+            </div>
+            <ul class="nav nav-tabs border-0 gap-2 mb-4" id="fruitTab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all"
+                        type="button" role="tab" aria-controls="all" aria-selected="true">
+
+                        All Fruits
+
+                    </button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link" id="apple-tab" data-bs-toggle="tab" data-bs-target="#apple" type="button"
+                        role="tab" aria-controls="apple" aria-selected="false">
+
+                        Apples
+
+                    </button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link" id="citrus-tab" data-bs-toggle="tab" data-bs-target="#citrus" type="button"
+                        role="tab" aria-controls="citrus" aria-selected="false">
+
+                        Citrus
+
+                    </button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link" id="berries-tab" data-bs-toggle="tab" data-bs-target="#berries"
+                        type="button" role="tab" aria-controls="berries" aria-selected="false">
+
+                        Berries
+
+                    </button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+
+                    <button class="nav-link" id="tropical-tab" data-bs-toggle="tab" data-bs-target="#tropical"
+                        type="button" role="tab" aria-controls="tropical" aria-selected="false">
+
+                        Tropical
+
+                    </button>
+
+                </li>
+
+            </ul>
+            <div class="tab-content" id="fruitTabContent">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-1.jpg" class="card-img-top" alt="Crisp Fuji Apples">
+
+                                <div class="card-body">
+
+                                    <div class="d-flex justify-content-between
+                                            align-items-center gap-2">
+
+                                        <h5 class="fw-bold mb-0">
+                                            Crisp Fuji Apples
+                                        </h5>
+
+                                        <span class="badge price-badge">
+                                            $4.99 / kg
+                                        </span>
+
+                                    </div>
+
+                                    <p class="text-secondary mb-0 mt-2">
+                                        Orchard Fresh • 100% Organic
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-2.jpg" class="card-img-top" alt="California Oranges">
+
+                                <div class="card-body">
+
+                                    <div class="d-flex justify-content-between
+                                            align-items-center gap-2">
+
+                                        <h5 class="fw-bold mb-0">
+                                            California Oranges
+                                        </h5>
+
+                                        <span class="badge price-badge">
+                                            $3.49 / kg
+                                        </span>
+
+                                    </div>
+
+                                    <p class="text-secondary mb-0 mt-2">
+                                        Sun-Ripened • High Vitamin C
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-3.jpg" class="card-img-top" alt="Organic Strawberries">
+
+                                <div class="card-body">
+
+                                    <div class="d-flex justify-content-between
+                                            align-items-center gap-2">
+
+                                        <h5 class="fw-bold mb-0">
+                                            Organic Strawberries
+                                        </h5>
+
+                                        <span class="badge price-badge">
+                                            $5.99 / box
+                                        </span>
+
+                                    </div>
+
+                                    <p class="text-secondary mb-0 mt-2">
+                                        Handpicked • Sweet & Juicy
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-4.jpg" class="card-img-top" alt="Alphonso Mangoes">
+
+                                <div class="card-body">
+
+                                    <div class="d-flex justify-content-between
+                                            align-items-center gap-2">
+
+                                        <h5 class="fw-bold mb-0">
+                                            Alphonso Mangoes
+                                        </h5>
+
+                                        <span class="badge price-badge">
+                                            $8.99 / kg
+                                        </span>
+
+                                    </div>
+
+                                    <p class="text-secondary mb-0 mt-2">
+                                        Tropical Royalty • Honey Sweet
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="apple" role="tabpanel">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-1.jpg" class="card-img-top" alt="Crisp Fuji Apples">
+
+                                <div class="card-body">
+
+                                    <h5 class="fw-bold">
+                                        Crisp Fuji Apples
+                                    </h5>
+
+                                    <p class="text-secondary mb-0">
+                                        Orchard Fresh • 100% Organic
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="citrus" role="tabpanel">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-2.jpg" class="card-img-top" alt="California Oranges">
+
+                                <div class="card-body">
+
+                                    <h5 class="fw-bold">
+                                        California Oranges
+                                    </h5>
+
+                                    <p class="text-secondary mb-0">
+                                        Sun-Ripened • High Vitamin C
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="berries" role="tabpanel">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-3.jpg" class="card-img-top" alt="Organic Strawberries">
+
+                                <div class="card-body">
+
+                                    <h5 class="fw-bold">
+                                        Organic Strawberries
+                                    </h5>
+
+                                    <p class="text-secondary mb-0">
+                                        Handpicked • Sweet & Juicy
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="tropical" role="tabpanel">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+
+                            <div class="card fruit-card h-100">
+
+                                <img src="images/project-4.jpg" class="card-img-top" alt="Alphonso Mangoes">
+
+                                <div class="card-body">
+
+                                    <h5 class="fw-bold">
+                                        Alphonso Mangoes
+                                    </h5>
+
+                                    <p class="text-secondary mb-0">
+                                        Tropical Royalty • Honey Sweet
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-5 bg-light" id="reviews">
+        <div class="container-fluid px-5">
+            <div class="mb-5">
+                <p class="text-success fw-bold mb-2">
+                    CUSTOMER REVIEWS
+                </p>
+                <h1 class="fw-bold">
+                    What Fruit Lovers Say
+                </h1>
+            </div>
+            <div class="owl-carousel owl-theme review-carousel">
+                <div class="item">
+                    <div class="card shadow-sm border rounded-3 p-4" id="carsol">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/client-1.jpg" class="rounded-circle" id="r-img">
+                            <div>
+                                <h5 class="fw-bold mb-1">Emma Watson</h5>
+                                <p class="text-secondary mb-1">
+                                    Certified Nutritionist
+                                </p>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-secondary">
+                            "The sweetest and freshest strawberries and apples
+                            I've ever tasted! My weekly FruitBazaar box keeps
+                            my whole family energized and healthy."
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card shadow-sm border rounded-3 p-4" id="carasol"">
+
+                        <div class=" d-flex align-items-center gap-3 mb-4">
+
+                        <img src="images/client-2.jpg" class="rounded-circle" id="r-img">
+
+                        <div>
+                            <h5 class="fw-bold mb-1">David Harris</h5>
+                            <p class="text-secondary mb-1">
+                                Executive Pastry Chef
+                            </p>
+
+                            <div class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-secondary">
+                        "Incredible quality and aroma! Their farm-fresh
+                        citrus and berries have significantly elevated
+                        all our restaurant dessert creations."
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card shadow-sm border rounded-3 p-4" id="carasol"">
+                        <div class=" d-flex align-items-center gap-3 mb-4">
+                    <img src="images/client-3.jpg" class="rounded-circle" id="r-img">
+                    <div>
+                        <h5 class="fw-bold mb-1">Sophia Miller</h5>
+                        <p class="text-secondary mb-1">
+                            Fitness Coach
+                        </p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-secondary">
+                    "Guaranteed organic with unbelievable sweetness.
+                    Having chilled, perfectly ripe seasonal fruits
+                    delivered to my door is a blessing."
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card shadow-sm border rounded-3 p-4" id="carasol">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <img src="images/client-4.jpg" class="rounded-circle" id="r-img">
+                    <div>
+                        <h5 class="fw-bold mb-1">Liam Chen</h5>
+                        <p class="text-secondary mb-1">
+                            Health Enthusiast
+                        </p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-secondary">
+                    "The cold-chain delivery keeps the fruits crisp
+                    and fresh. Unbeatable quality, zero plastic waste,
+                    and outstanding customer service!"
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card shadow-sm border rounded-3 p-4" id="carasol">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <img src="images/client-5.jpg" class="rounded-circle" id="r-img">
+                    <div>
+                        <h5 class="fw-bold mb-1">Olivia Taylor</h5>
+                        <p class="text-secondary mb-1">
+                            Mom & Food Blogger
+                        </p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-secondary">
+                    "My kids finish the fruit box within two days!
+                    Clean eco packaging, juicy ripe mangoes,
+                    and top-tier organic produce."
+                </p>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="py-4 bg-light" id="fruit-boxes">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="row justify-content-center text-center mb-5">
+
+                <div class="col-lg-12">
+
+                    <h6 class="text-success">
+                        OUR FRUIT PLANS
+                    </h6>
+
+                    <h2 class="fw-bold">
+                        Fresh & Affordable Fruit Boxes
+                    </h2>
+
+                    <!-- Weekly / Monthly -->
+                    <ul class="nav nav-tabs justify-content-center border-0 mt-4 pricing-toggle">
+
+                        <li class="nav-item">
+                            <button class="nav-link active" type="button" data-bs-toggle="tab" data-bs-target="#weekly">
+
+                                Weekly
+
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#monthly">
+
+                                Monthly
+
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="weekly">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <h4 class="fw-bold">
+                                        Starter Basket
+                                    </h4>
+                                    <h1 class="fw-bold mt-2">
+                                        $19
+                                        <small class="fs-6 text-muted">
+                                            / week
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            4 Seasonal Fruit Varieties
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Up to 3.5 kg Fresh Produce
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Standard Free Delivery
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-outline-success
+                                               rounded-pill w-100 mt-auto">
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm
+                                    border-success border-2">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <div class="d-flex justify-content-between
+                                            align-items-center">
+                                        <h4 class="fw-bold mb-0">
+                                            Family Harvest
+                                        </h4>
+                                        <span class="badge bg-success rounded-pill">
+                                            Most Popular
+                                        </span>
+                                    </div>
+                                    <h1 class="fw-bold mt-2">
+                                        $39
+                                        <small class="fs-6 text-muted">
+                                            / week
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            8 Seasonal & Exotic Fruits
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Up to 8 kg Farm Produce
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Priority Cold Express Delivery
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-success
+                                               rounded-pill w-100 mt-auto">
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <h4 class="fw-bold">
+                                        Immunity & Exotic
+                                    </h4>
+                                    <h1 class="fw-bold mt-2">
+                                        $69
+                                        <small class="fs-6 text-muted">
+                                            / week
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Unlimited Seasonal Selection
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Rare Superfruits & Berries
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            24/7 VIP Concierge & Free Samples
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-outline-success
+                                               rounded-pill w-100 mt-auto">
+
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="monthly">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <h4 class="fw-bold">
+                                        Starter Basket
+                                    </h4>
+                                    <h1 class="fw-bold mt-2">
+                                        $69
+                                        <small class="fs-6 text-muted">
+                                            / month
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            4 Seasonal Fruit Varieties
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Up to 3.5 kg Fresh Produce
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Standard Free Delivery
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-outline-success
+                                               rounded-pill w-100 mt-auto">
+
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm
+                                    border-success border-2">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <div class="d-flex justify-content-between
+                                            align-items-center">
+                                        <h4 class="fw-bold mb-0">
+                                            Family Harvest
+                                        </h4>
+                                        <span class="badge bg-success rounded-pill">
+                                            Most Popular
+                                        </span>
+                                    </div>
+                                    <h1 class="fw-bold mt-2">
+                                        $149
+                                        <small class="fs-6 text-muted">
+                                            / month
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            8 Seasonal & Exotic Fruits
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Up to 8 kg Farm Produce
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Priority Cold Express Delivery
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-success
+                                               rounded-pill w-100 mt-auto">
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body p-4 d-flex flex-column">
+                                    <h4 class="fw-bold">
+                                        Immunity & Exotic
+                                    </h4>
+                                    <h1 class="fw-bold mt-2">
+                                        $249
+                                        <small class="fs-6 text-muted">
+                                            / month
+                                        </small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-5 text-secondary">
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Unlimited Seasonal Selection
+                                        </li>
+                                        <li class="mb-3">
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            Rare Superfruits & Berries
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-check text-success me-2"></i>
+                                            24/7 VIP Concierge & Free Samples
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-outline-success
+                                               rounded-pill w-100 mt-auto">
+                                        Choose Basket
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-white" id="contact">
+        <div class="container-fluid px-5">
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-3">
+                    <p class="text-success fw-bold mb-2">
+                        GET IN TOUCH
+                    </p>
+                    <h1 class="fw-bold mb-5">
+                        Contact Us
+                    </h1>
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="bg-success text-white rounded-circle
+                                d-flex align-items-center justify-content-center
+                                flex-shrink-0" id="con">
+                            <i class="bi bi-geo-alt-fill fs-5"></i>
+                        </div>
+                        <p class="text-secondary mb-0">
+                            123 Business Street,<br>
+                            New York, NY 10001
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="bg-success text-white rounded-circle
+                                d-flex align-items-center justify-content-center
+                                flex-shrink-0" id="con">
+                            <i class="bi bi-telephone-fill fs-5"></i>
+                        </div>
+                        <p class="text-secondary mb-0">
+                            +1 234 567 8900
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-success text-white rounded-circle
+                                d-flex align-items-center justify-content-center
+                                flex-shrink-0" id="con">
+                            <i class="bi bi-envelope-fill fs-5"></i>
+                        </div>
+                        <p class="text-secondary mb-0">
+                            info@interntask.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form>
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Full Name *">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-control-lg" placeholder="Email Address *">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+
+                            <select class="form-select form-select-lg">
+
+                                <option selected>
+                                    Select Subject
+                                </option>
+
+                                <option>
+                                    General Enquiry
+                                </option>
+
+                                <option>
+                                    Fruit Orders
+                                </option>
+
+                                <option>
+                                    Subscription
+                                </option>
+
+                                <option>
+                                    Delivery
+                                </option>
+
+                            </select>
+
+                        </div>
+                        <div class="mb-3">
+
+                            <textarea class="form-control" rows="5" placeholder="Message *"></textarea>
+
+                        </div>
+                        <button type="submit" class="btn btn-success btn-lg fw-bold px-4">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm">
+                        <iframe src="https://www.google.com/maps?q=New+York,+NY&output=embed" allowfullscreen=""
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+
+        <div class="container-fluid px-5">
+            <div class="row align-items-center">
+                <div class="col-lg-3 mb-4 mb-lg-0" id="logo">
+                    <a href="#" class="text-decoration-none text-white
+                          fw-bold fs-2" id="f-logo">
+                        <i class="bi bi-apple  me-2" id="i"></i>
+                        Fruit<span class="text-success">
+                            Bazaar
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <ul class="nav justify-content-center gap-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Harvest
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Fruit Boxes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Reviews
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex justify-content-lg-end
+                            justify-content-center gap-2">
+                        <a href="#" class="btn btn-outline-secondary rounded-circle
+                              d-flex align-items-center justify-content-center" id="social">
+
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary rounded-circle
+                              d-flex align-items-center justify-content-center" id="social">
+
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary rounded-circle
+                              d-flex align-items-center justify-content-center" id="social">
+
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center">
+
+                <p class="text-secondary mb-0">
+
+                    © 2025 FruitBazaar.
+                    All rights reserved.
+                    100% Farm Fresh Fruits.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        $(".review-carousel").owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            dots: true,
+
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1200: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
